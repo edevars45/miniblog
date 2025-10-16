@@ -14,5 +14,9 @@ trim_trailing_whitespace = false
 [*.{yml,yaml}]
 indent_size = 2
 
+<<<<<<< HEAD
 [docker-compose.yml]
+=======
+[compose.yaml]
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
 indent_size = 4

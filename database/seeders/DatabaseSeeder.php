@@ -12,7 +12,13 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call(RolesAndPermissionsSeeder::class);
+<<<<<<< HEAD
 
         $this->call(UsersSeeder::class);
     }
 }
+=======
+        $this->call(UsersSeeder::class);
+    }
+}
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))

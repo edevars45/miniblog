@@ -16,6 +16,10 @@
         "laravel-vite-plugin": "^2.0.0",
         "postcss": "^8.4.31",
         "tailwindcss": "^3.1.0",
+<<<<<<< HEAD
         "vite": "^7.0.4"
+=======
+        "vite": "^7.0.7"
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
     }
 }

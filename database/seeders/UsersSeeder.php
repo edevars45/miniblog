@@ -2,7 +2,10 @@
 
 namespace Database\Seeders;
 
+<<<<<<< HEAD
 use App\Models\Post;
+=======
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
@@ -53,8 +56,11 @@ class UsersSeeder extends Seeder
             );
 
             $newUser->syncRoles([$u['role']]);
+<<<<<<< HEAD
 
             Post::factory(6)->for($newUser)->create();
+=======
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
         }
 
     }

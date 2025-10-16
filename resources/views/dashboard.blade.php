@@ -3,6 +3,12 @@
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
         </h2>
+<<<<<<< HEAD
+=======
+         @role('admin')
+    <a href="{{ route('admin.home') }}" class="underline text-indigo-600">Aller à l’espace admin</a>
+@endrole
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
     </x-slot>
 
     <div class="py-12">
@@ -14,4 +20,8 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
 </x-app-layout>

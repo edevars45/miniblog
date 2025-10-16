@@ -10,8 +10,15 @@ use Spatie\Permission\Traits\HasRoles;
 
 class User extends Authenticatable
 {
+<<<<<<< HEAD
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable, HasRoles;
+=======
+
+    
+    /** @use HasFactory<\Database\Factories\UserFactory> */
+    use HasFactory, Notifiable, HasRoles; // <-- user
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
 
     /**
      * The attributes that are mass assignable.
@@ -46,4 +53,8 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
 }

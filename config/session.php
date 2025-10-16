@@ -129,7 +129,11 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
+<<<<<<< HEAD
         Str::slug(env('APP_NAME', 'laravel')).'-session'
+=======
+        Str::slug((string) env('APP_NAME', 'laravel')).'-session'
+>>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
     ),
 
     /*
