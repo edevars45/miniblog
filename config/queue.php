@@ -76,17 +76,6 @@ return [
             'after_commit' => false,
         ],
 
-<<<<<<< HEAD
-=======
-        'failover' => [
-            'driver' => 'failover',
-            'connections' => [
-                'database',
-                'sync',
-            ],
-        ],
-
->>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
     ],
 
     /*

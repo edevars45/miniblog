@@ -13,11 +13,7 @@ class RolesAndPermissionsSeeder extends Seeder
         // Toujours vider le cache interne de Spatie avant d'altérer la matrice
         app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
 
-<<<<<<< HEAD
         // Permissions liées aux articles (MiniPress)
-=======
-        // Permissions liées aux articles (MiniBlog)
->>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
         $perms = [
             'posts.view',
             'posts.create',
@@ -46,8 +42,4 @@ class RolesAndPermissionsSeeder extends Seeder
         // Rafraîchir le cache des permissions
         app(\Spatie\Permission\PermissionRegistrar::class)->forgetCachedPermissions();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 05aaa84 (Initial commit: Laravel + Breeze + Spatie (miniblog))
